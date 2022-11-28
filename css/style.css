@@ -61,12 +61,15 @@
 
 a{
   text-decoration: none;
-  color: white;
+  color: black;
+  padding: 2px 3px;
+  border-radius: 7px;
   
 }
 
-a:hover, .active{
-  color: black;
+#menu a:hover, .active{
+  background-color: white;
+  
 }
 
 
