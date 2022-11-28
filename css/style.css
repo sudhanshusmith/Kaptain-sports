@@ -229,6 +229,11 @@ a{
   border-bottom-left-radius: 40px;
 }
 
+.card a{
+  color: black;
+  text-align: center;
+}
+
 .card img{
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
