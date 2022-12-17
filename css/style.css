@@ -65,11 +65,13 @@ body{
 
 /* CSS of Menu Part  */
 
+
+
 #menu ul{
   list-style: none;
-  float: right;
-  margin-top: 9px;
+  
   margin-bottom: 0;
+  height: 30px;
 }
 
 #menu li{
@@ -367,11 +369,11 @@ hr {
 }
 
 .footer-mid p {
-  font-size: var(--normal-para-size);
+  font-size: 15px;
 }
 
 .footer-right p {
-  font-size: var(--normal-para-size);
+  font-size: 15px;
   margin-bottom: 8px;
 }
 
