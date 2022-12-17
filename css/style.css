@@ -16,11 +16,27 @@
 
 
 
+/* New Logo Modification are here*/
+
+.new-logo-name{
+  display: inline-block;
+}
+
+.new-logo-name h3{
+  line-height: 4px;
+ 
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
 /* CSS Variables  */
 :root{
   --theme-colour: rgba(107,228,223,255);
   --text-colour: #ffffff;
-  --logo-colour: #e38772;
+  --logo-colour: #ef674e;
   --normal-para-size: 18px;
   --category-para-size: 12px;
 }
@@ -33,16 +49,18 @@
   background-color: var(--theme-colour);
 }
 
-/* CSS of logo part  */
+/* CSS of logo part  in Navbar */
 #logo{
   font-size: 25px;
   
 }
 
 #logo img{
-  height: 45px;
-  width: 45px;
+  padding: 8px;
+  height: 60px;
+  width: 60px;
 }
+
 
 
 /* CSS of Menu Part  */
@@ -144,9 +162,13 @@ a{
   /* margin: 80px 60px; */
 }
 
-.revolution h3{
+.revolution .new-logo-name h3{
   letter-spacing: 8px; 
   color: var(--logo-colour);
+}
+.revolution .new-logo-name h2{
+  /* letter-spacing: 8px;  */
+  color: #104370;
 }
 
 
@@ -167,7 +189,7 @@ a{
 
 .revolution button{
  padding: 3px 20px;
- border: 1px solid gray;
+ border: none;
  border-radius: 15px;
  margin-right: 30px;
  font-size: 25px;
